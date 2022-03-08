@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.error-messages{
+  background-color: red;
+}
+
+.post-item{
+  border: solid 1px rgb(211, 211, 224);
+  margin: 1em;
+  padding: 1em;
+}
+
+.post-body{
+  margin-top: 0.3125rem;
+}
+
+.tags{
+  margin-top: 0.625rem;
+  display: flex;
+}
+
+.tag{
+  background-color: yellow;
+  padding: 0.25rem;
+  margin: 0.25rem;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.favorited, .not-favorited{
+  cursor: pointer
+}
+
+.not-favorited{
+  color: transparent;
+  text-shadow: 0 0 0 gray;
+}
+
+.favorited{
+  color: red;
+  // text-shadow: 0 0 0 red;
+}
+
+.comments{
+  padding: 0.625rem;
+  .comment{
+    margin: 0.625rem;
+    padding: 0.625rem;
+    border: 1px solid #ddd;
+  }
+}
